@@ -4,10 +4,11 @@
 <body>
     <div class="container">
         {{>hamburger_menu}}
+        {{>cover}}
         {{>sidebar}}
-
+        {{>intro}}
         <!-- section of display -->
-        <section class="display" id="display">
+        <section class="display" id="image_url">
             {{>choices}}
             <form class="query-form" id='query-url-form'>
                 <input placeholder="https://s3.amazonaws.com/model-server/inputs/kitten.jpg" class="query-form-input" id="search_url" value="https://s3.amazonaws.com/model-server/inputs/kitten.jpg">
@@ -24,6 +25,9 @@
     </div>
 
     {{>js_footer}}
+    <script type="text/javascript">
+        window.href.location="/#image_url";
+    </script>
 </body>
 
 

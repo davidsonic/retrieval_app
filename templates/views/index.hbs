@@ -7,13 +7,23 @@
         {{>cover}}
         {{>sidebar}}
 
-        <!-- section of display -->
-        <section class="display" id="display">
-            <h1 class="section-heading">Gallery</h1>
-            {{>choices}}
+        {{>intro}}
 
-            {{>gallery}}
-            
+        <!-- section of display -->
+        
+        <section class="display" id="restapi">
+                {{>restapi}}
+                {{>choices}}
+                <img src="/img/torchserve.png" class="restapi" />
+                {{!-- <div class="example_query">
+                        <img src="https://s3.amazonaws.com/model-server/inputs/kitten.jpg" class="example_query_img" />
+                        <img src="https://www.popsci.com/uploads/2020/04/17/KUKWJUSGXRG4ZDWKRU572IXAWQ.jpg" class="example_query_img" />
+                        <img src="https://navs.org/wp-content/uploads/bb-plugin/cache/bunny-landscape.jpg" class="example_query_img" />
+                        <img src="https://navs.org/wp-content/uploads/bb-plugin/cache/NAVS_Candyportrait_AF-300-dpi-landscape.jpg" class="example_query_img" />
+                        <img src="https://navs.org/wp-content/uploads/bb-plugin/cache/frog-cropped-landscape.jpg" class="example_query_img" />
+                </div> --}}
+                
+                {{>classification}}
         </section>
         <!-- end of display -->
 

@@ -4,11 +4,14 @@
 <body>
     <div class="container">
         {{>hamburger_menu}}
+        {{>cover}}
         {{>sidebar}}
 
+        {{>intro}}
         <!-- section of display -->
-        <section class="display" id="display">
+        <section class="display" id="example_query">
                 {{>choices}}
+                
                 <div class="example_query">
                         <img src="https://s3.amazonaws.com/model-server/inputs/kitten.jpg" class="example_query_img" />
                         <img src="https://www.popsci.com/uploads/2020/04/17/KUKWJUSGXRG4ZDWKRU572IXAWQ.jpg" class="example_query_img" />
@@ -27,5 +30,8 @@
     </div>
 
     {{>js_footer}}
+    <script type="text/javascript">
+        window.href.location="/#example_query";
+    </script>
 </body>
 </html>

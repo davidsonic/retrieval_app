@@ -4,10 +4,11 @@
 <body>
     <div class="container">
         {{>hamburger_menu}}
+        {{>cover}}
         {{>sidebar}}
-
+        {{>intro}}
         <!-- section of display -->
-        <section class="display" id="display">
+        <section class="display" id="image_upload">
             {{>choices}}
             <form class="query-form">
                 <input placeholder="upload an image" class="query-form-input">
@@ -24,5 +25,8 @@
     </div>
 
     {{>js_footer}}
+    <script type="text/javascript">
+        window.href.location="/#image_upload";
+    </script>
 </body>
 </html>

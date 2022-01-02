@@ -279,7 +279,7 @@ html {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 7rem 0 10rem 0;
+    padding: 7rem 0 6rem 0;
 }
 
 .section-heading{
@@ -463,7 +463,24 @@ html {
   }
 /* end of section 4 */
 
+.intro{
+    width: 100%; 
+    height: 100vh; 
+    padding: 4rem 2rem; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #eeeeff;
+}
 
+.intro-img{
+    height: 80vh; 
+}
+
+.restapi{
+    width: 70%;
+}
 /* section of display */
 .display{
     width: 100%;

@@ -3,7 +3,7 @@ const express = require('express');
 const gallery = express.Router(); 
 
 gallery.get('/', (req, res)=>{
-    res.redirect('/#display'); 
+    res.redirect('/#example_query'); 
 });
 
 gallery.get('/example_query', require('./gallery/example_query')); 
