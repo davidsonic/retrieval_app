@@ -1,0 +1,23 @@
+{
+  "name": "retrieve_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js, hbs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "hbs": "^4.0.1",
+    "request": "^2.88.0",
+    "underscore": "^1.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.2.0"
+  }
+}

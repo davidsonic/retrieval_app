@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>header}}
+<body>
+    <div class="container">
+        {{>hamburger_menu}}
+        {{>sidebar}}
+
+        <!-- section of display -->
+        <section class="display" id="display">
+            {{>choices}}
+            <form class="query-form" id='query-url-form'>
+                <input placeholder="https://s3.amazonaws.com/model-server/inputs/kitten.jpg" class="query-form-input" id="search_url" value="https://s3.amazonaws.com/model-server/inputs/kitten.jpg">
+                <button class="query-form-btn" id="query-url-btn">Search</button>
+            </form>
+            {{>classification}}
+
+        </section>
+        <!-- end of display -->
+
+        {{>team}}
+        
+        {{>footer}}
+    </div>
+
+    {{>js_footer}}
+</body>
+
+
+</html>

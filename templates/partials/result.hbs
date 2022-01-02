@@ -1,0 +1,19 @@
+{{#if error}}
+<p class="error-msg">image id cannot be empty</p>
+{{/if}}
+
+
+<div class="gallery" id="gallery">
+    {{#each id}}
+        <a href="#" class="gallery-link" title="Order Now">
+            <img src='/img/furniture/{{this}}.jpg' class="food-img" />
+            <h3 class="food-name">{{this}}</h3>
+            <p class="food-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                commodi possimus iure hic excepturi. Corporis!
+            </p>
+        </a>
+    {{/each}}
+</div>
+
+<p class="error-msg">{{prediction}}</p>

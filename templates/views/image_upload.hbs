@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+{{>header}}
+<body>
+    <div class="container">
+        {{>hamburger_menu}}
+        {{>sidebar}}
+
+        <!-- section of display -->
+        <section class="display" id="display">
+            {{>choices}}
+            <form class="query-form">
+                <input placeholder="upload an image" class="query-form-input">
+                <button class="query-form-btn">Search</button>
+            </form>
+
+            {{>result}}
+        </section>
+        <!-- end of display -->
+
+        {{>team}}
+        
+        {{>footer}}
+    </div>
+
+    {{>js_footer}}
+</body>
+</html>

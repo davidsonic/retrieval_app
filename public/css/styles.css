@@ -1,0 +1,8 @@
+.prediction-img{
+    height: 400px;
+    margin: 5rem 0 2rem 0;
+}
+
+.prediction-title{
+    visibility: hidden;
+}
